@@ -6,27 +6,17 @@
 
 A tactile web calculator inspired by the industrial hardware language of the Teenage Engineering EP-133 K.O. II. The project combines a working basic calculator with a skeuomorphic device-style interface: recessed key slots, physical keycaps, an LCD-style display, mode buttons, indicator LEDs, and a DSEG 7-segment readout.
 
+![EP-133 Calc interface](https://github.com/user-attachments/assets/92be6f23-a1bd-4e69-bd36-277ab8d629ea)
+
 ## Features
 
 - Basic calculator operations: addition, subtraction, multiplication, division, percent, sign toggle, decimal input, delete, and clear.
 - Hardware-inspired interface with EP-133-style panel sections, speaker grille, knobs, key slots, and tactile button shadows.
 - LCD readout using the DSEG 7SEG font family.
-- Mode selector buttons (`STD`, `SCI`, `CONV`, `MATH`) that update the LCD status badge.
 - Keyboard support for digits, operators, decimal point, Enter, Backspace, Escape, and percent.
-- Accessible button labels, live display output, focus-visible states, and `aria-pressed` state where appropriate.
+- 
 - Tailwind CSS v4 token-based styling with CSS variables for colors, radii, shadows, fonts, and surfaces.
 - shadcn/ui-style `Button` component built on Radix Slot, CVA, `clsx`, and `tailwind-merge`.
-
-## Tech Stack
-
-- [React](https://react.dev/) 19
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vite.dev/)
-- [Tailwind CSS v4](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/) conventions
-- [Radix UI Slot](https://www.radix-ui.com/primitives/docs/utilities/slot)
-- [DSEG Font Family](https://github.com/keshikan/DSEG)
-- [Lucide React](https://lucide.dev/)
 
 ## Getting Started
 
@@ -98,15 +88,15 @@ The UI is designed as a compact hardware object rather than a flat web form. Key
 
 ## Keyboard Shortcuts
 
-| Key | Action |
-| --- | --- |
-| `0-9` | Enter digits |
-| `+`, `-`, `*`, `/` | Choose operator |
-| `.` | Decimal point |
-| `%` | Percent |
-| `Enter`, `=` | Calculate result |
-| `Backspace` | Delete last digit |
-| `Escape`, `Delete` | Clear calculator |
+| Key                | Action            |
+| ------------------ | ----------------- |
+| `0-9`              | Enter digits      |
+| `+`, `-`, `*`, `/` | Choose operator   |
+| `.`                | Decimal point     |
+| `%`                | Percent           |
+| `Enter`, `=`       | Calculate result  |
+| `Backspace`        | Delete last digit |
+| `Escape`, `Delete` | Clear calculator  |
 
 ## Customization
 
