@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.vite/
+.vite-temp/
+
+# TypeScript / Vite caches
+*.tsbuildinfo
+node_modules/.vite/
+node_modules/.vite-temp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+*.secret.*
+*.secrets.*
+secrets/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+.npmrc
+.yarnrc
+.netrc
+
+# AI agent / MCP local configuration
+.codex/
+.claude/
+.cursor/
+.continue/
+.aider*
+.gemini/
+.openhands/
+.qodo/
+.windsurf/
+.roo/
+.mcp/
+mcp.json
+mcp.config.*
+*.mcp.json
+AGENTS.local.md
+CLAUDE.local.md
+
+# Local app state and caches
+.cache/
+.tmp/
+tmp/
+temp/
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+.vercel/
+.netlify/
+.wrangler/
+.firebase/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
