@@ -6,7 +6,7 @@
 
 A tactile web calculator inspired by the industrial hardware language of the Teenage Engineering EP-133 K.O. II. The project combines a working basic calculator with a skeuomorphic device-style interface: recessed key slots, physical keycaps, an LCD-style display, mode buttons, indicator LEDs, and a DSEG 7-segment readout.
 
-![EP-133 Calc interface](https://github.com/user-attachments/assets/92be6f23-a1bd-4e69-bd36-277ab8d629ea)
+![EP-133 Calc interface](https://github.com/user-attachments/assets/d6f896a0-805b-43a7-a0ad-fb18d55deee9)
 
 ## Features
 
